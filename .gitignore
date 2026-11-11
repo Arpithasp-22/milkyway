@@ -1,10 +1,13 @@
 # Python
 venv/
+.venv/
 __pycache__/
 *.pyc
+.pytest_cache/
 
-# Data
-data/synthetic/images/*.png
+# Generated data and outputs (regenerate with: python -m src.run_pipeline --save-data)
+data/synthetic/images/
+outputs/
 
 # OS
 .DS_Store
